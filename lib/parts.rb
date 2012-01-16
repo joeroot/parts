@@ -9,7 +9,8 @@ module Parts
 
     attr_accessor :bigrams, :words, :tags, :bigram_smoothing, :suffixes
 
-    def initialize sentences
+    def initialize sentences=nil
+      sentences = Treebank.new.sentences if sentences.nil?
       # Tag-bigrams are stored such that P(T2|T1) = @bigrams[T1][T2].
       # Word-tag pairs are stored such that P(W|T) = @words[W][T].
       # Tags are stored such that @tags[T] = no. of occurences of T.
@@ -149,3 +150,4 @@ module Parts
 end
 
 require 'parts/tester'
+require 'parts/treebank'
