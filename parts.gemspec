@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "parts"
-  s.version = "0.1.0"
+  s.version = "0.1.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Joe Root"]
@@ -14,11 +14,12 @@ Gem::Specification.new do |s|
   s.email = "joe@onlysix.co.uk"
   s.extra_rdoc_files = [
     "LICENSE.txt",
-    "README.rdoc"
+    "README.md"
   ]
   s.files = [
     "lib/parts.rb",
     "lib/parts/tester.rb",
+    "lib/parts/treebank.rb",
     "lib/parts/treebank3.2.txt"
   ]
   s.homepage = "http://github.com/joeroot/parts"
