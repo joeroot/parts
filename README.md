@@ -4,7 +4,7 @@ Parts is a simple to use probabilistic part of speech tagger. At its core, parts
 
 Any questions please do get in contact via [email](mailto:joe@onlysix.co.uk).
 
-## Basics use
+## Basics
 
 Parts is packaged as a [gem](https://rubygems.org/pages/download) and thus installed accordingly. 
 
